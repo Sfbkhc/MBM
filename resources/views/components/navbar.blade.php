@@ -25,7 +25,7 @@
             <!-- Desktop Menu -->
             <div class="hidden lg:flex items-center space-x-8" id="desktop-menu">
                 <a href="#section" class="nav link text-gray-800 hover:text-[#362FD9] font-medium">Beranda</a>
-                <a href="/tentang-kami" class="text-gray-800 hover:text-[#362FD9] font-medium">Tentang Kami</a>
+                <a href="#Tentang" class="text-gray-800 hover:text-[#362FD9] font-medium">Tentang Kami</a>
 
                 <!-- Dropdown Menu -->
                 <div class="relative group">
