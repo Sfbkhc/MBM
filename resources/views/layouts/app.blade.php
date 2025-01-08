@@ -7,58 +7,22 @@
     <title>MBM</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    @if (app()->environment('production'))
+    <link rel="stylesheet" href="{{ asset('build/assets/app-DhHkRJue.css') }}">
+    @else
     @vite('resources/css/app.css')
+    @endif
 </head>
 
 <body class="font-body bg-white">
     <div class="bg-white relative isolate  ">
-
         <x-navbar />
         <x-hero-section />
+        <x-sectin-profile />
+        <x-bussines />
         <x-about-section />
     </div>
 
-
-
-    <!-- Features Section -->
-    <section class="py-20 bg-gray-50">
-        <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
-                <!-- Feature Card 1 -->
-                <div class="bg-[#362FD9] rounded-lg p-6 text-white">
-                    <div class="bg-white rounded-sm w-12 h-12 flex items-center justify-center mb-4">
-                        <img src="{{asset('image/icons/feature-1.svg')}}" alt="Feature 1" class="w-6 h-6">
-                    </div>
-                    <h3 class="text-xl font-bold mb-4">Feature Title</h3>
-                    <p class="text-gray-200">Feature description goes here</p>
-                </div>
-                <!-- Repeat for other feature cards -->
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="py-20">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-wrap items-center">
-                <div class="w-full lg:w-1/2 mb-12 lg:mb-0">
-                    <img src="{{asset('image/about-image.png')}}" alt="About Image" class="rounded-lg shadow-xl">
-                </div>
-                <div class="w-full lg:w-1/2 lg:pl-12">
-                    <h2 class="text-4xl font-bold mb-6">About Us</h2>
-                    <p class="text-gray-600 mb-8">Detailed description about MBM Education and its mission.</p>
-                    <div class="grid grid-cols-2 gap-6">
-                        <!-- Stats -->
-                        <div class="bg-gray-50 p-6 rounded-lg">
-                            <h4 class="text-3xl font-bold text-[#362FD9]">500+</h4>
-                            <p class="text-gray-600">Students</p>
-                        </div>
-                        <!-- Repeat for other stats -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Blog Section -->
     <section class="py-20 bg-gray-50">
