@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- Hero Section -->
 
-
-
+<x-hero-section />
+<x-sectin-profile />
+<x-bussines />
+<x-about-section />
+<x-section-blog />
 @endsection

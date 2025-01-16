@@ -87,9 +87,12 @@ export default {
               },
               animation: {
                 'fade-up': 'fadeUp 0.7s ease-out forwards',
-                'fade-down': 'fadeDown 0.7s ease-out forwards'
+                'fade-down': 'fadeDown 0.7s ease-out forwards',
+                'fade-in-up': 'fade-in-up 1s ease-out forwards',
+                fadeIn: 'fadeIn 0.5s forwards',
               },
               keyframes: {
+                
                 fadeUp: {
                   '0%': {
                     opacity: '0',
@@ -109,6 +112,26 @@ export default {
                     opacity: '0',
                     transform: 'translateY(40px)'
                   }
+                },
+                fadeIn: {
+                  '0%': {
+                    opacity: '0',
+                    transform: 'translateY(20px)',
+                  },
+                  '100%': {
+                    opacity: '1',
+                    transform: 'translateY(0)',
+                  },
+                },
+                'fade-in-up': {
+                  '0%': {
+                    opacity: '0',
+                    transform: 'translateY(20px)',
+                  },
+                  '100%': {
+                    opacity: '1',
+                    transform: 'translateY(0)',
+                  },
                 }
               }
         },

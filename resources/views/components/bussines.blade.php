@@ -6,7 +6,7 @@
         <h2 class="text-4xl font-bold text-center mb-4 text-white"><span class="text-[#ff3744]"></span>Bisnis <span class="text-[#ff3744]"></span>Kami</h2>
 
         <div class="flex flex-col items-center mb-8">
-            <div class="flex flex-wrap justify-center gap-4 px-4 mb-4">
+            <div class="hidden md:flex flex-wrap justify-center gap-4 px-4 mb-4">
                 <a href="#" class="px-4 py-2 text-sm sm:text-base text-white hover:text-[#ff3744] transition-colors duration-300">
                     Semua
                 </a>
@@ -34,7 +34,7 @@
 
         <div class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <!-- Card Bisnis 1 -->
-            <div class="relative h-128 max-w-[2000px] w-full mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div class="relative h-96 lg:h-128 max-w-[2000px] w-full mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <img src="{{ asset('/image/bg/grocery-1232944_1920.jpg') }}" alt="Bisnis 1" class="w-full h-full object-cover">
                 <!-- Default Title -->
                 <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black to-transparent">
@@ -50,7 +50,7 @@
             </div>
 
             <!-- Card Bisnis 2 -->
-            <div class="relative h-128 max-w-[2000px] w-full mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div class="relative h-96 lg:h-128 max-w-[2000px] w-full mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <img src="{{ asset('/image/bg/mining-440743_1920.jpg') }}" alt="Bisnis 2" class="w-full h-full object-cover">
                 <!-- Default Title -->
                 <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black to-transparent">
@@ -66,7 +66,7 @@
             </div>
 
             <!-- Card Bisnis 3 -->
-            <div class="relative h-128 max-w-[2000px] w-full mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div class="relative h-96 lg:h-128 max-w-[2000px] w-full mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <img src="{{ asset('/image/bg/crowd-5560458_1920.jpg') }}" alt="Bisnis 3" class="w-full h-full object-cover">
                 <!-- Default Title -->
                 <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black to-transparent">
@@ -82,7 +82,7 @@
             </div>
 
             <!-- Card Bisnis 4 -->
-            <div class="relative h-128 max-w-[2000px] w-full mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div class="relative h-96 lg:h-128 max-w-[2000px] w-full mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <img src="{{ asset('/image/bg/hospital-8738997_1920.png') }}" alt="Bisnis 4" class="w-full h-full object-cover">
                 <!-- Default Title -->
                 <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black to-transparent">
@@ -96,7 +96,7 @@
                     </div>
                 </div>
             </div>
-            <div class="relative h-128 max-w-[2000px] w-full mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div class="relative h-96 lg:h-128 max-w-[2000px] w-full mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <img src="{{ asset('/image/bg/14032019015801_0.jpg') }}" alt="Bisnis 4" class="w-full h-full object-cover">
                 <!-- Default Title -->
                 <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black to-transparent">
@@ -110,11 +110,11 @@
                     </div>
                 </div>
             </div>
-            <div class="relative h-128 w-128  mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div class="relative h-96 lg:h-128 max-w-[2000px] mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <img src="{{ asset('/image/bg/IMG-20241220-WA0454.jpg') }}" alt="Bisnis 4" class="w-full h-full object-cover">
                 <!-- Default Title -->
                 <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black to-transparent">
-                    <h3 class="font-semibold text-xl text-white text-center py-4">Mandala Bina Mandiri</h3>
+                    <h3 class="font-semibold text-xl text-white text-center py-4">Lembaga Kurus</h3>
                 </div>
                 <!-- Hover Content -->
                 <div class="absolute inset-0 bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
@@ -124,8 +124,8 @@
                     </div>
                 </div>
             </div>
-            <div class="relative h-128 w-128  mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <img src="{{ asset('/image/bg/press-2591798_1920.jpg') }}" alt="Bisnis 4" class="w-full h-full object-cover">
+            <div class="relative h-96 lg:h-128 max-w-[2000px] mx-auto bg-transparant rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <img src="{{ asset('/image/bg/Screenshot from 2025-01-07 17-31-32.png') }}" alt="Bisnis 4" class="w-full h-full object-cover">
                 <!-- Default Title -->
                 <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black to-transparent">
                     <h3 class="font-semibold text-xl text-white text-center py-4">Tribun Mandala</h3>

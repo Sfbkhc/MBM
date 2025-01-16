@@ -1,14 +1,14 @@
-<nav class="bg-white fixed w-full z-50 shadow-md" x-data="{ mobileMenuOpen: false, changeLanguage(locale) { window.location.href = `/language/${locale}`; } }">
-    <div class="container mx-auto px-2 py-2 font-serif">
+<nav class="bg-white fixed top-0 w-full z-50 shadow-md" x-data="{ mobileMenuOpen: false, changeLanguage(locale) { window.location.href = `/language/${locale}`; } }">
+    <div class="container mx-auto px-2 py-0 md:py-2 font-serif">
         <div class="flex justify-between items-center h-16">
             <!-- Logo -->
             <div class="flex items-center">
                 <a href="/" class="flex items-center">
-                    <img src="{{ asset('image/logo/logo-1.png') }}" alt="Logo STIMIK Bina Bangsa" class="h-14 md:h-24 lg:h-14" />
-                    <div class="mb-[-7px] ml-[-3px] mr-1 w-[2px] h-10 rounded-sm bg-gray-800"></div>
+                    <img src="{{ asset('image/logo/logo-1.png') }}" alt="Logo STIMIK Bina Bangsa" class="h-10 md:h-12 lg:h-14" />
+                    <div class="mb-[-7px] ml-[-3px] mr-1 w-[2px] h-8 md:h-10 rounded-sm bg-gray-800"></div>
                     <div class="flex-rows space-y-[-5px] text-gray-800">
-                        <p>Mandala</p>
-                        <p>Bina Mandiri</p>
+                        <p class="text-sm md:text-sm">Mandala</p>
+                        <p class="text-sm md:text-sm">Bina Mandiri</p>
                     </div>
                 </a>
             </div>
@@ -24,8 +24,8 @@
 
             <!-- Desktop Menu -->
             <div class="hidden lg:flex items-center space-x-8" id="desktop-menu">
-                <a href="#section" class="text-gray-800 hover:text-[#ff3744] font-boldmedium">Home</a>
-                <a href="#Tentang" class="text-gray-800 hover:text-[#ff3744] font-boldmedium">Tentang Mandala</a>
+                <a href="/" class="text-gray-800 hover:text-[#ff3744] font-boldmedium">Home</a>
+                <a href="/visi-misi" class="text-gray-800 hover:text-[#ff3744] font-boldmedium">Tentang Mandala</a>
 
                 <!-- Dropdown Menu -->
                 <div class="relative" x-data="{ open: false }">
@@ -143,7 +143,7 @@
                     <div class="overflow-y-auto h-full pb-20">
                         <nav class="p-4 space-y-4">
                             <a href="/" class="block px-4 py-2 text-gray-800 hover:bg-[#ff3744] hover:text-white rounded-lg transition-colors duration-200">Beranda</a>
-                            <a href="/tentang-kami" class="block px-4 py-2 text-gray-800 hover:bg-[#ff3744] hover:text-white rounded-lg transition-colors duration-200">Tentang Mandala</a>
+                            <a href="/visi-misi" class="block px-4 py-2 text-gray-800 hover:bg-[#ff3744] hover:text-white rounded-lg transition-colors duration-200">Tentang Mandala</a>
 
                             <!-- Menu Bisnis dengan Dropdown -->
                             <div x-data="{ isOpen: false }" class="relative">
